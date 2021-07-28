@@ -1,8 +1,8 @@
 import React from 'react'
-import { LandingPage } from '../features/pages/landing_page'
+import { LandingPage } from "../features/pages/landing_page";
 
 const HomeRoute = (props) => {
-  return <LandingPage/>
-}
+  return <LandingPage />;
+};
 
-export default HomeRoute
+export default HomeRoute;
