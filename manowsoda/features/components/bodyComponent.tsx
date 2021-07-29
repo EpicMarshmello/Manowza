@@ -11,7 +11,7 @@ export const BodyItem = () => {
     <>
       <div className="h-auto w-4/12 ml-56 flex flex-col justify-center">
         <div className="text-8xl text-white my-10">ราชบุรี</div>
-        <div className="text-xl text-white"> {'"'+textShow+'"'} </div>
+        <div className="text-xl text-white "> {'"' + textShow + '"'} </div>
       </div>
     </>
   );
