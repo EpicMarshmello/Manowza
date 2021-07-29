@@ -24,9 +24,7 @@
     "**/*.tsx"
 
 , "pages/index.tsx", "components/Nav.tsx"  ],
-
-  ],
-
+  
   "exclude": [
     "node_modules"
   ]
