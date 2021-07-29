@@ -9,9 +9,9 @@ export const LandingPage = () => {
   return (
     <div
       style={{ backgroundImage: "url('/main.jpg')" }}
-      className="w-screen h-screen bg-fixed"
+      className="w-screen h-screen bg-fixed "
     >
-      <div className="h-full w-full bg-black bg-opacity-10">
+      <div className="h-full w-full bg-gradient-to-r from-black via-transparent ">
         <BodyItem />
       </div>
     </div>
