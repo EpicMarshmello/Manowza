@@ -1,0 +1,13 @@
+1. Set engines
+
+"engines": {
+    "node" : "15.2.0",
+    "npm":"7.0.8"
+}
+
+2. Change start script
+
+"start": "next start -p $PORT",
+
+3. Add this to the script
+
