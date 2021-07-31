@@ -1,9 +1,14 @@
 {
-  "private": true,
+  "homepage": "https://epicmarshmello.github.io/Manowza",
+  "name": "manowsoda",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+    "start": "next start",
     "build": "next build",
-    "start": "next start"
+    "dev": "next dev -p 3001"
   },
   "dependencies": {
     "next": "latest",

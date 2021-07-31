@@ -8,7 +8,7 @@ function AboutUs() {
     <>
       <div
         style={{ backgroundImage: "url('/img2.jpg')" }}
-        className="bg-fixed bg-cover h-screen"
+        className="bg-fixed bg-cover h-5/6"
       >
         <div className="h-full w-full bg-gradient-to-r from-black via-transparent ">
           <div className="h-5/6 w-1/4 ml-56 flex flex-col justify-center ">
@@ -18,7 +18,7 @@ function AboutUs() {
         </div>
       </div>
       <div className="bg-white h-4/5">
-        <div className="w-4/5 ml-56 py-20 flex flex-col justify-center">
+        <div className="w-4/5 ml-56 py-12 flex flex-col justify-center">
           <div className="text-7xl font-bold text-black my-10 ">
             มีใครบ้างในทีม?
           </div>

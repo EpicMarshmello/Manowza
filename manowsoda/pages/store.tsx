@@ -26,21 +26,21 @@ export default function Store() {
           </div>
         </div>
         <div className=" w-full h-5/6 p-16">
-          <div className="w-full h-4/5 p-12 flex flex-row ">
+          <div className="w-full h-5/6 p-12 flex flex-row ">
             <Link href="https://www.facebook.com/prasinpom">
-              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3">
+              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3 overflow-hidden">
                 <img
                   src="001.jpg"
                   className="rounded-3xl w-4/5 shadow-2xl my-6 "
                 />
-                <p className=" text-3xl font-bold ">ไอเหี้ยหนวด</p>
+                <p className=" text-3xl font-bold">ไอเหี้ยหนวด</p>
                 <div className="bg-yellow-400 rounded-lg font-bold text-xl my-5 text-white p-2">
                   อาหาร
                 </div>
               </div>
             </Link>
             <Link href="https://www.facebook.com/yasinam43">
-              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3">
+              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3 overflow-hidden">
                 <img
                   src="002.jpg"
                   className="rounded-3xl w-4/5 shadow-2xl my-6"
@@ -52,7 +52,7 @@ export default function Store() {
               </div>
             </Link>
             <Link href="https://www.facebook.com/phasawit.chittrakul.3">
-              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3">
+              <div className=" w-1/3 h-full flex flex-col items-center shadow-2xl transition duration-300 ease-in-out transform hover:scale-110 rounded-3xl cursor-pointer mx-3 overflow-hidden">
                 <img
                   src="003.jpg"
                   className="rounded-3xl w-4/5 shadow-2xl my-6"
