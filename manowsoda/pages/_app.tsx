@@ -1,19 +1,21 @@
 import React from "react";
-import Link from "next/link";
-import Nav from "../components/Nav";
-import 'tailwindcss/tailwind.css'
+import Nav from "../features/components/Navza";
+import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-  <div>
-
-
-    <Nav/>
-    <Component {...pageProps} />
-
-
-  </div>
-  )
+    <div>
+      <Nav />
+      <div
+        style={{ backgroundImage: "url('/main.jpg')" }}
+        className="bg-fixed h-screen"
+      >
+        <div className="h-full w-full bg-gradient-to-r from-black via-transparent ">
+          <Component {...pageProps} />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default MyApp
+export default MyApp;
